@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .toolbar {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .toolbar label,
+  .toolbar input,
+  .toolbar button {
+    margin-right: 10px;
+  }
+  
+  canvas {
+    flex: 1;
+    display: block;
+    background-color: #fff;
+    cursor: crosshair;
+  }
+  
